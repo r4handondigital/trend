@@ -1,0 +1,157 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
+     font-family: 'Josefin Sans', sans-serif;
+	
+}
+h1, h2, h3, h4, h5, h6, strong{
+	font-weight: 700;
+}
+
+
+
+
+
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+.navbar-brand{
+	background: url(../img/trend-eyewear.svg);
+    background-size: cover;
+    width: 220px;
+    display: block;
+    height: 80px;
+    margin: 10px 60px 10px 0px;
+}
+.cinza-bg{
+
+	background: #6D6E70 ;
+}
+
+#navbarNavAltMarkup{
+	position: relative;
+}
+
+.navbar-nav{
+	position: absolute;
+	right: 0;
+
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+header ul.dados-superiores li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	display: inline;
+	color: #bbb;
+	margin-right: 10px;
+}
+header ul.dados-superiores li a{
+	color: #bbb;
+}
+ul.dados-superiores{
+	margin: 0;
+	padding: 10px 0;
+}
+
+.desktop-mobile{
+	display: none;
+}
+
+.seja-revendedor{
+	background: #6D6E70;
+	color: #fff;
+	padding: 30px 0;
+	
+}
+
+.seja-revendedor h1{
+	font-size: 35px;
+	font-weight: normal;
+}
+.seja-revendedor h1 span{
+	display: block;
+	font-weight: bold;
+}
+/*  TESTES DE RESOLUCAOES PADROES */
+
+@media only screen and  (min-width:769px) {
+
+
+
+}
+
+@media only screen and  (min-width:1441px) and (max-width:1600px){
+
+	
+
+} /* FINAL RESOLUCAO*/
+
+
+@media only screen and  (min-width:1281px) and (max-width:1440px){
+
+
+
+} /* FIM RESOLUCAO*/
+
+@media only screen and  (min-width:1153px) and (max-width:1280px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (min-width:1025px) and (max-width:1152px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (min-width:769px) and (max-width:1024px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (max-width:768px){
+	.desktop-on{
+		display: none;
+	}
+
+	.desktop-mobile{
+		display: block;
+	}
+	
+	.cinza-bg{
+		background: #6D6E70 url(../img/linha-mobile.svg)  center center repeat-x;
+	}
+
+	.dados-superiores{
+	background: #6D6E70;
+	 padding: 10px 0px 10px 25px !important;
+	}
+
+	header ul.dados-superiores li {
+    font-size: 20px;
+    margin-right: 13px;
+	}
+
+	.navbar-toggler{
+		position: absolute;
+		right: 0;
+		top: 43px;
+	}
+
+	.nav-link{
+		text-align: right;
+	}
+
+}/*FIM RESOLUCAO*/
