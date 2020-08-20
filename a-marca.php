@@ -7,7 +7,17 @@
   <section class="img-interna" style="background-image: url(<?php the_field('imagem_de_topo'); ?>);" > </section>
 
   
-
+<section class="mapa-site">
+      <div class="container">
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="<?php bloginfo('url'); ?>/">HOME</a></li>
+                <li class="breadcrumb-item active" aria-current="page">A MARCA</li>
+              </ol>
+            </nav>
+          </div>
+      </div>
+</section>
     
       <section class="internas a-marca-texto">
           <div class="container">
@@ -56,7 +66,7 @@
                   <span>TREND EYEWEAR</span></h1>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-light right">TENHO INTERESSE</a>
+                <a class="btn btn-light right" href="<?php bloginfo('url'); ?>/entre-em-contato">TENHO INTERESSE</a>
             </div>
             
           </div>

@@ -8,9 +8,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p>© 2020 Orange Eyewear. Todos os direitos reservados.</p>
+        <p>© 2020 Trend Eyewear. Todos os direitos reservados.</p>
       </div>
-      <div class="col-md-6"><p class="right">R4HANDON</p></div>
+      <div class="col-md-6"><p class="right"><a href="http://r4handon.com.br/" target="_blank">R4HANDON</a></p></div>
     </div>
   </div>
 </footer>
@@ -32,6 +32,8 @@
       [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
         el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
       } );
+
+      
     </script>
 
     <?php wp_footer(); ?> 

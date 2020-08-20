@@ -6,7 +6,18 @@
 
   <section class="img-interna" style="background-image: url(<?php bloginfo('template_url'); ?>/libs/img/categories.jpg);" > </section>
 
-  
+  <section class="mapa-site">
+      <div class="container">
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="<?php bloginfo('url'); ?>/">HOME</a></li>
+                <li class="breadcrumb-item"><a href="<?php bloginfo('url'); ?>/trend/produtos">PRODUTOS</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo strip_tags(get_the_title()); ?></li>
+              </ol>
+            </nav>
+          </div>
+      </div>
+</section>
 
     
       <section class="internas ">
@@ -39,7 +50,7 @@
                   <span>TREND EYEWEAR</span></h1>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-light right">TENHO INTERESSE</a>
+                <a class="btn btn-light right" href="<?php bloginfo('url'); ?>/entre-em-contato">TENHO INTERESSE</a>
             </div>
             
           </div>

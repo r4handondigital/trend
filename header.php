@@ -43,15 +43,15 @@
 
 <?php wp_head(); ?> 
 </head>
-<header class="linhas-mobile ">
+<header class="linhas-mobile "> 
   <section class="cinza-bg">
       <div class="container">
           <div class="row">
               <div class="col-sm-12 desktop-on">
                 <ul class="left dados-superiores">
-                    <li><a href="#"><i class="fab fa-instagram"></i> TRENDOCULOS OFICIAL</a></li>
+                    <li><a href="https://www.instagram.com/trendoculosoficial/" target="_blank"><i class="fab fa-instagram"></i> TRENDOCULOS OFICIAL</a></li>
                     <!--<li><a href="#"><i class="fas fa-store"></i> LOJA VIRTUAL</a></li>-->
-                    <li><a href="#"><i class="fab fa-whatsapp"></i> 84 99909-3962</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5584999093962&text=Ol%C3%A1!" target="_blank"><i class="fab fa-whatsapp"></i> 84 99909-3962</a></li>
                  </ul> 
                  <ul class="right dados-superiores">
                     <li><a href="https://g.page/trendeyewear?share" target="_blank"><i class="fas fa-map-marker-alt"></i> AV. ENG. ROBERTO FREIRE, 2632 LJ B06 - NATAL/RN</a></li>                  
@@ -59,9 +59,9 @@
               </div>
               <div class="col-sm-12 desktop-mobile">
                 <ul class="right dados-superiores">
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/trendoculosoficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                    <!-- <li><a href="#"><i class="fas fa-store"></i></a></li>-->
-                    <li><a href="#"><i class="fab fa-whatsapp"></i> </a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5584999093962&text=Ol%C3%A1!"><i class="fab fa-whatsapp"></i> </a></li>
                     <li><a href="https://g.page/trendeyewear?share" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>                  
                  </ul> 
               </div>
@@ -69,7 +69,7 @@
       </div>
   </section>
   <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="<?php bloginfo('url'); ?>/"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -82,7 +82,7 @@
            <!-- <a class="nav-item nav-link" href="#">EDITORIAIS</a>
             <a class="nav-item nav-link" href="#">REVENDA</a>
             <a class="nav-item nav-link" href="#">LOJAS</a>-->
-            <a class="nav-item nav-link" href="<?php bloginfo('url'); ?>/trend/produtos">ENTRE EM CONTATO</a>
+            <a class="nav-item nav-link" href="<?php bloginfo('url'); ?>/entre-em-contato">ENTRE EM CONTATO</a>
           </div>
         </div>
       </nav>

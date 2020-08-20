@@ -15,7 +15,7 @@
                   <span>TREND EYEWEAR</span></h1>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-light right">TENHO INTERESSE</a>
+                <a class="btn btn-light right" href="<?php bloginfo('url'); ?>/entre-em-contato">TENHO INTERESSE</a>
             </div>
             
           </div>
